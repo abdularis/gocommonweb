@@ -1,7 +1,7 @@
 package integration_testing
 
 import (
-	"gocommonweb"
+	"github.com/abdularis/gocommonweb"
 	"io/ioutil"
 	"strings"
 	"testing"

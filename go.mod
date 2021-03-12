@@ -1,4 +1,4 @@
-module gocommonweb
+module github.com/abdularis/gocommonweb
 
 go 1.15
 

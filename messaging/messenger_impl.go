@@ -2,7 +2,7 @@ package messaging
 
 import (
 	"encoding/json"
-	"gocommonweb"
+	"github.com/abdularis/gocommonweb"
 	"sync"
 	"time"
 
