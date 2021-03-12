@@ -2,6 +2,13 @@
 
 Contains utilities and tools commonly used in web application.
 
+
+## Install
+
+```
+go get github.com/abdularis/gocommonweb@v0.1.0
+```
+
 ## Components
 - [Cache](#cache)
 - [Event](#event)
