@@ -1,6 +1,6 @@
 ## Go Common Web 📦🌏
 
-Contains utilities and tools commonly used in web application. You can reuse this package easily for different projects since it's an independent package.
+Contains utilities and tools commonly used in web application.
 
 ## Components
 - [Cache](#cache)
@@ -195,3 +195,6 @@ if valid {
     fmt.Println("your password correct")
 }
 ```
+
+
+> Note: *queue_redis.go* implemented using *gocraft* which used *redigo* redis client, whereas other tools such as *event* and *cache* using *goredis* as its redis client which has more convenient API. Therefore leads to using two different library with the same purpose indirectly.
